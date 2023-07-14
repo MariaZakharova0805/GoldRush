@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="./assets/coins.svg" />
+    <title>GoldRush</title>
+</head>
+<body>
+    <div class="roulette">
+        <div class="header flex-row ">
+            <button class="header_btn"></button>
+            <div class="header_cell header_bid">
+                <img src="./assets/star.svg" alt="go back" class="header_cell_star" />
+                <div class="header_cell_numbers">
+                    <p class="poins"><span id="stars"></span>/900</p>
+                </div>
+            </div>
+            <div class="header_cell header_balance">
+                <img src="./assets/coins.svg" alt="go back" class="header_cell_coin" />
+                <div class="header_cell_numbers">
+                    <p id="coins" class="bid"></p>
+                </div>
+            </div>
+            <div class="header_btn hidden"></div>
+        </div>
+        <div class="content">
+            <div class="content_box flex-row">
+                <div class="swiper mySwiper_1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-number="1"><img src="./assets/img1.svg" alt="grape" /></div>
+                        <div class="swiper-slide" data-number="2"><img src="./assets/img2.svg" alt="lemon" /></div>
+                        <div class="swiper-slide" data-number="3"><img src="./assets/img3.svg" alt="whatermellon" /></div>
+                        <div class="swiper-slide" data-number="4"><img src="./assets/img4.svg" alt="777" /></div>
+                        <div class="swiper-slide" data-number="5"><img src="./assets/img5.svg" alt="barbar" /></div>
+                        <div class="swiper-slide" data-number="6"><img src="./assets/img6.svg" alt="plum" /></div>
+                        <div class="swiper-slide" data-number="7"><img src="./assets/img7.svg" alt="bell" /></div>
+                        <div class="swiper-slide" data-number="8"><img src="./assets/img8.svg" alt="cherry" /></div>
+                        <div class="swiper-slide" data-number="9"><img src="./assets/img9.svg" alt="orange" /></div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper_2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-number="4"><img src="./assets/img4.svg" alt="777" /></div>
+                        <div class="swiper-slide" data-number="5"><img src="./assets/img5.svg" alt="barbar" /></div>
+                        <div class="swiper-slide" data-number="6"><img src="./assets/img6.svg" alt="plum" /></div>
+                        <div class="swiper-slide" data-number="7"><img src="./assets/img7.svg" alt="bell" /></div>
+                        <div class="swiper-slide" data-number="8"><img src="./assets/img8.svg" alt="cherry" /></div>
+                        <div class="swiper-slide" data-number="9"><img src="./assets/img9.svg" alt="orange" /></div>
+                        <div class="swiper-slide" data-number="1"><img src="./assets/img1.svg" alt="grape" /></div>
+                        <div class="swiper-slide" data-number="2"><img src="./assets/img2.svg" alt="lemon" /></div>
+                        <div class="swiper-slide" data-number="3"><img src="./assets/img3.svg" alt="whatermellon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper_3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-number="7"><img src="./assets/img7.svg" alt="bell" /></div>
+                        <div class="swiper-slide" data-number="8"><img src="./assets/img8.svg" alt="cherry" /></div>
+                        <div class="swiper-slide" data-number="9"><img src="./assets/img9.svg" alt="orange" /></div>
+                        <div class="swiper-slide" data-number="1"><img src="./assets/img1.svg" alt="grape" /></div>
+                        <div class="swiper-slide" data-number="2"><img src="./assets/img2.svg" alt="lemon" /></div>
+                        <div class="swiper-slide" data-number="3"><img src="./assets/img3.svg" alt="whatermellon" /></div>
+                        <div class="swiper-slide" data-number="4"><img src="./assets/img4.svg" alt="777" /></div>
+                        <div class="swiper-slide" data-number="5"><img src="./assets/img5.svg" alt="barbar" /></div>
+                        <div class="swiper-slide" data-number="6"><img src="./assets/img6.svg" alt="plum" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer flex-row">
+                <div class="footer_points flex-row">
+                    <button class="btn" id="increase_bet">
+                        <p>+</p>
+                    </button>
+                    <div class="purpleSquare">
+                        <p id="bet" class="text_golden"></p>
+                    </div>
+                    <div class="btn" id="decrease_bet">
+                        <p>-</p>
+                    </div>
+                </div>
+                <div class="footer_win purpleSquare flex-row">
+                    <p class="text_blue">win</p>
+                    <p id="win" class="text_golden"></p>
+                </div>
+                <div class="footer_play flex-row">
+                    <button id="startButton" class="footter_play_btn footter_play_auto">
+                        <p class="text_blue">auto</p>
+                    </button>
+                    <button class="footter_play_btn footter_play_spin" id="spin">
+                        <p>spin</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="./swiper-bundle.min.js"></script>
+        <script src="./index.js"></script>
+</body>
+
+</html>
