@@ -46,5 +46,5 @@
 164 localStorage.removeItem("gameData"); //раскомментировать для отчистки объекта игры из хранилища и перезагруить браузер
 ```
 5. Cсылки:
-<a href='https://mariazakharova0805.github.io/GoldRush/'>deploy</a> 
-<a href='https://www.figma.com/file/9mww8B2cwQwuHeLfSfmdZk/Gold-Rush?node-id=0%3A1&t=lTgtl0i7KwFIi7Bt-0'>layout</a> 
+- <a href='https://mariazakharova0805.github.io/GoldRush/'>deploy</a>
+- <a href='https://www.figma.com/file/9mww8B2cwQwuHeLfSfmdZk/Gold-Rush?node-id=0%3A1&t=lTgtl0i7KwFIi7Bt-0'>layout</a> 
