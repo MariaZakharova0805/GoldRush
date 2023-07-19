@@ -3,7 +3,7 @@
 ### Ссылки на макет и деплой:
 - <a href='https://mariazakharova0805.github.io/GoldRush/'>deploy</a>
 - <a href='https://www.figma.com/file/9mww8B2cwQwuHeLfSfmdZk/Gold-Rush?node-id=0%3A1&t=lTgtl0i7KwFIi7Bt-0'>layout</a>
-- 
+  
 ### 1. При нажатии кнопки SPIN
 - списывается баланс в размере ставки
 - добавляется +100 звездочек (в ТЗ не уточнено, на что влияют звездочки и есть ли предельный баланс, */900 - 900 стоит по умолчанию, тк не описано в ТЗ)
